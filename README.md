@@ -1,10 +1,10 @@
-# WebGL Fluid Simulation
+# WebGL Fluid Background
 
-A WebGL-based fluid simulation adapted from PavelDoGreat’s project, optimized for creating dynamic website backgrounds.
+A WebGL-based fluid simulation adapted from PavelDoGreat’s project, optimised for creating dynamic website backgrounds.
 
 ## Credits
 
-This project is a fork of [Original Project Name](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) by Pavel Dobryakov.
+This project is a fork of [WebGL Fluid Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) by Pavel Dobryakov.
 The original version can be accessed [here](https://paveldogreat.github.io/WebGL-Fluid-Simulation/).
 
 Modifications made by [Thomas Kabalin](https://github.com/tkabalin).
