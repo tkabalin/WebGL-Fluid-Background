@@ -1,16 +1,13 @@
 # WebGL Fluid Simulation
 
-[Play here](https://paveldogreat.github.io/WebGL-Fluid-Simulation/)
+A WebGL-based fluid simulation adapted from PavelDoGreat’s project, optimized for creating dynamic website backgrounds.
 
-<img src="/screenshot.jpg?raw=true" width="880">
+## Credits
 
-## References
+This project is a fork of [Original Project Name](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation) by Pavel Dobryakov.
+The original version can be accessed [here](https://paveldogreat.github.io/WebGL-Fluid-Simulation/).
 
-https://developer.nvidia.com/gpugems/gpugems/part-vi-beyond-triangles/chapter-38-fast-fluid-dynamics-simulation-gpu
-
-https://github.com/mharrys/fluids-2d
-
-https://github.com/haxiomic/GPU-Fluid-Experiments
+Modifications made by [Thomas Kabalin](https://github.com/tkabalin).
 
 ## License
 
