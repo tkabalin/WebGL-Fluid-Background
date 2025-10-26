@@ -19,8 +19,8 @@ Start by getting the project files onto your local machine.
 
 Ensure all necessary files are in your project directory:
 * `index.html`
-* `style.css`
-* `script.js` (The core simulation logic)
+* `fluid-overlay-styles.css`
+* `webgl-fluid.js` (The core simulation logic)
 * `config.json` (For simulation settings)
 * `LDR_LLL1_0.png`
 
@@ -29,7 +29,7 @@ Ensure all necessary files are in your project directory:
 The `index.html` file is intended to serve as the main page of the website you are developing. 
 The simulation automatically renders on the full-viewport **`<canvas>`** element. To display content over the fluid background, position it with a **higher `z-index`** than the canvas.
 
-* **Overlay Content:** Elements like the provided `.overlay-heading` are styled in `style.css` to sit visually on top of the animation (using `z-index: 1`).
+* **Overlay Content:** Elements like the provided `.overlay-heading` are styled in `fluid-overlay-styles.css` to sit visually on top of the animation (using `z-index: 1`).
 * **Scrollable Content:** For content that extends below the animated area, add it **after** the `<canvas>` element in `index.html`. The canvas is fixed to a height of `100vh`, and the remaining page content will flow naturally underneath it, allowing the user to scroll.
 
 ### 4. Running the Simulation
