@@ -1,36 +1,3 @@
-/* =========================
-   dat.GUI
-   ========================= */
-
-.dg {
-  opacity: 0.9;
-}
-
-.dg .property-name {
-  overflow: visible;
-}
-
-
-.cr.function.appBigFont {
-  font-size: 150%;
-  line-height: 27px;
-  color: #a5f8d3;
-  background-color: #023c40;
-}
-
-.cr.function.appBigFont .property-name {
-  float: none;
-}
-
-.cr.function.appBigFont .icon {
-  position: sticky;
-  bottom: 27px;
-}
-
-/* =========================
-   Page Design
-   ========================= */
-
 * {
   user-select: none;  /* prevents all text from being selected */
 }
