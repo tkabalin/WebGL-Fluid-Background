@@ -1,24 +1,6 @@
-* {
-  user-select: none;
-}
-
-html,
-body {
-  overflow: hidden;
-  background-color: #000;
-}
-
-body {
-  margin: 0;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-}
-
-canvas {
-  width: 100%;
-  height: 100%;
-}
+/* =========================
+   dat.GUI
+   ========================= */
 
 .dg {
   opacity: 0.9;
@@ -28,10 +10,6 @@ canvas {
   overflow: visible;
 }
 
-.bigFont {
-  font-size: 150%;
-  color: #8c8c8c;
-}
 
 .cr.function.appBigFont {
   font-size: 150%;
@@ -49,33 +27,49 @@ canvas {
   bottom: 27px;
 }
 
-.icon {
-  font-family: "iconfont";
-  font-size: 130%;
-  float: right;
+/* =========================
+   Page Design
+   ========================= */
+
+* {
+  user-select: none;  /* prevents all text from being selected */
 }
 
-.twitter:before {
-  content: "a";
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: auto; /* let body grow with content */
+  background-color: #ffffff;
+  overflow: auto; /* allow scrolling */
 }
 
-.github:before {
-  content: "b";
-}
-
-.app:before {
-  content: "c";
-}
-
-.discord:before {
-  content: "d";
-}
-
-.link {
+/* The animated region */
+canvas {
   width: 100%;
-  display: inline-block;
+  height: 100vh; /* full viewport height */
+  display: block;
+  position: relative; /* allow content below the canvas */
+  z-index: 0;
 }
 
-.link img {
-  width: 100%;
+/* The main heading of the website in the centre of the animation */
+.overlay-heading {
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  font-size: 75px;
+  z-index: 1; /* above canvas */
+}
+
+/* Content below the animation canvas */
+.page-content {
+  padding: 20px;
+  color: black;
+  background-color: transparent;
 }

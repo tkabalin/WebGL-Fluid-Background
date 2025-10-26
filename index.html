@@ -1,32 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!--TODO: Fill in blank properties-->
-        <meta charset="UTF-8">
-        <meta http-equiv="Cache-Control" content="no-cache">
+  <!--SETUP: Fill in blank properties in HEAD-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="mobile-web-app-capable" content="yes">
+    <!-- Responsive viewport settings for mobile devices -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
 
-        <title>WebGL Fluid Background</title>
-        <meta name="description" content="">
+    <!-- Ensure compatibility with Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="">
-        <meta property="og:description" content="">
+    <!-- Enable full-screen appearance for iOS Safari -->
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
 
-        <script type="text/javascript" src="dat.gui.min.js"></script>
-        <link rel="stylesheet" href="style.css">
+    <!-- Page title shown in browser tab -->
+    <title>WebGL Fluid Background</title>
 
-        <!--RECOMMENDED: Add implement Google Analytics tracking-->
-    </head>
+    <!-- Description for search engines and SEO -->
+    <meta name="description" content="" />
 
-    <body>
-        <canvas></canvas>
+    <!-- Open Graph metadata for social sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
 
-        <script src="./script.js"></script>
-    </body>
+    <!--SETUP: add a browser tab icon-->
+    <link rel="icon" href="favicon.png" type="image/png" />
+
+    <!--SETUP: update the file paths-->
+    <script type="text/javascript" src="dat.gui.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <canvas></canvas> <!--The canvas on which the animation is drawn-->
+
+    <!--START OF CONTENT-->
+
+    <div class="overlay-heading">Hello World!</div>
+
+    <!--END OF CONTENT-->
+
+    <!--SETUP: update the file paths-->
+    <script src="./script.js"></script>
+  </body>
 </html>
