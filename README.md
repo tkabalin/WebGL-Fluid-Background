@@ -1,7 +1,13 @@
 # WebGL Fluid Background
 
-A WebGL-based fluid simulation adapted from PavelDoGreat’s project, optimised for creating dynamic website backgrounds.
+<p align="left">
+    <img src="screenshots/white-low-vorticity.png" width="190" />
+    <img src="screenshots/white-high-vorticity.png" width="190" />
+    <img src="screenshots/black-high-vorticity.png" width="190" />
+    <img src="screenshots/blue-fluid.png" width="190" />
+</p>
 
+A WebGL-based fluid simulation adapted from PavelDoGreat’s project, optimised for creating dynamic website backgrounds.
 
 ## Usage
 
