@@ -1733,12 +1733,21 @@ function runSimulation(config) {
     return delta;
   }
 
+  // Updated to allow single colors
   function generateColor() {
-    let c = HSVtoRGB(Math.random(), 1.0, 1.0);
-    c.r *= 0.15;
-    c.g *= 0.15;
-    c.b *= 0.15;
-    return c;
+    if (config.RANDOM_COLORS) {
+      let c = HSVtoRGB(Math.random(), 1.0, 1.0);
+      c.r *= 0.15;
+      c.g *= 0.15;
+      c.b *= 0.15;
+      return c;
+    } else {
+      let c = HSVtoRGB(config.SPLAT_HUE, 1.0, 1.0);
+      c.r *= 0.15;
+      c.g *= 0.15;
+      c.b *= 0.15;
+      return c;
+    }
   }
 
   function HSVtoRGB(h, s, v) {
