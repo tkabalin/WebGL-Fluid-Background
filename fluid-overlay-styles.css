@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  user-select: none;  /* prevents all text from being selected */
+  user-select: none; /* prevents all text from being selected */
 }
 
 html,
@@ -36,7 +36,7 @@ canvas {
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
-  font-size: 75px; 
+  font-size: 75px;
   z-index: 1; /* above canvas */
   pointer-events: none; /* this is important as it ensures that the effect works under the heading */
 }
@@ -46,6 +46,26 @@ canvas {
   padding: 20px;
   color: black;
   background-color: transparent;
+}
+
+.read_me {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.5); 
+  color: #000000;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  z-index: 1;
+  position: fixed;
+  bottom: 20px;          
+  left: 20px;            
+  border-radius: 50px;
+  cursor: pointer;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 /* Landscape orientation */
@@ -61,4 +81,3 @@ canvas {
     font-size: 12vw;
   }
 }
-

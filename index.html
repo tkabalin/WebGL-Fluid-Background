@@ -26,7 +26,7 @@
     <meta name="mobile-web-app-capable" content="yes" />
 
     <!-- Description for search engines and SEO -->
-    <meta name="description" content="" />
+    <meta name="description" content="A WebGL-based fluid simulation adapted from PavelDoGreat's project, optimised for creating dynamic website backgrounds." />
     <meta name="author" content="Thomas Kabalin" />
 
     <!-- Open Graph metadata for social sharing -->
@@ -36,22 +36,30 @@
     <meta property="og:url" content="" />
 
     <!--SETUP: add a browser tab icon-->
-    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="icon" href="" type="image/png" />
 
-    <!--SETUP: update the file paths-->
+    <!--SETUP: update the file paths if you move the file-->
     <link rel="stylesheet" href="fluid-overlay-styles.css" />
+
+    <!--REMOVE THE FOLLOWING LINE-->
+    <meta name="google-site-verification" content="KxV1WEjEkGzvRm3viGVmb1_nOUMs4bxHwcnRzFqIgxQ" />
   </head>
 
   <body>
-    <canvas></canvas> <!--The canvas on which the animation is drawn-->
+    <canvas></canvas>
+    <!--The canvas on which the animation is drawn-->
 
     <!--START OF CONTENT-->
 
     <div class="overlay-heading">Hello World!</div>
 
+    <a href="https://github.com/tkabalin/WebGL-Fluid-Background/blob/master/README.md" target="_blank" class="read_me">
+      View the README
+    </a>
+
     <!--END OF CONTENT-->
 
-    <!--SETUP: update the file paths-->
+    <!--SETUP: update the file paths if you move the file. Moving config and the LDR image requires making changes in the script-->
     <script src="./webgl-fluid.js"></script>
   </body>
 </html>

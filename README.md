@@ -58,3 +58,9 @@ Modifications made by [Thomas Kabalin](https://github.com/tkabalin).
 ## License
 
 The code is available under the [MIT license](LICENSE)
+
+## Support & Share
+
+If you find this project useful, please consider **starring the repository**.  
+
+If you use this project in your own work, I would love to **see what you build**! Please **share your project** or **fork the repo**.  
