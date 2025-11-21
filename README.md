@@ -40,7 +40,7 @@ The simulation automatically renders on the full-viewport **`<canvas>`** element
 
 ### 4. Running the Simulation
 
-Open **`index.html`** in your web browser. The fluid simulation should start immediately and will respond to your mouse or touch movements.
+Run **`index.html`** with a tool such as Live Server in VS Code. The fluid simulation should start immediately and will respond to your mouse or touch movements.
 
 > ⚠️ **Note:** This project **requires a WebGL-compatible browser**. If the background does not appear, ensure WebGL is enabled in your browser settings.
 
